@@ -1,0 +1,10 @@
+%G1
+val = randi([1 200]);
+disp(val);
+fprintf('\n');
+%G2 
+A = magic(100);
+disp(A);
+d = A(3,5);
+disp(d);
+fprintf('\n');    
